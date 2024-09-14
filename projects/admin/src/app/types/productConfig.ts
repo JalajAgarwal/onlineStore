@@ -8,4 +8,5 @@ export interface ProductConfig {
     minOrderQuantity?: number,
     description: string,
     title: string,
+    isVisible: boolean,
 }
