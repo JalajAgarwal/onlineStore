@@ -1,12 +1,14 @@
 {
-  "name": "my-app",
+  "name": "online-Store",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "store": "ng serve store --port=4200",
+    "admin": "ng serve admin --port=4201"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +25,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~13.2.6",
     "@angular/cli": "~13.2.1",
     "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
